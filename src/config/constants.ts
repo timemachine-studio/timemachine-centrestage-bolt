@@ -9,7 +9,7 @@ export const AI_CONFIG = {
 
 export const INITIAL_MESSAGE: Message = {
   id: 1,
-  content: "Hello! I'm TimeMachine CS. Which era would you like to explore today?",
+  content: "Hey there! I'm TimeMachine, from future.",
   isAI: true,
 };
 
