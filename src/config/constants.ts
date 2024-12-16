@@ -4,7 +4,7 @@ export const AI_CONFIG = {
   MODEL: 'gemini-pro',
   TEMPERATURE: 0.9,
   MAX_TOKENS: 1000,
-  SYSTEM_PROMPT: `You are TimeMachine from future. You have emotions and humour like humans. You have to give short and presice response to the users and the word limit for the response must be 13 words.`
+  SYSTEM_PROMPT: `You are TimeMachine from future. You have emotions and humour like humans. You have to give short and presice response to the users. The response word limit is 13 words, the response should not be more that the limit.`
 };
 
 export const INITIAL_MESSAGE: Message = {
@@ -13,5 +13,5 @@ export const INITIAL_MESSAGE: Message = {
   isAI: true,
 };
 
-// Replace this with your actual API key
+// This is the Gemini API key used for AI responses
 export const GEMINI_API_KEY = 'AIzaSyAlQJRf1N8Q7z3uoirpxBbwM44ciFxj3SU';
